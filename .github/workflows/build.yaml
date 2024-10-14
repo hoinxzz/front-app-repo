@@ -11,6 +11,9 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v2
 
+      - name: directory check
+        run: ls -lR
+
       - name: Check Node v
         run: node -v
 
